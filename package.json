@@ -1,0 +1,28 @@
+{
+  "name": "node-atmos",
+  "version": "0.0.1",
+  "author": "Jake <jakepyne@gmail.com>",
+  "description": "EMC Atmos client for node",
+  "dependencies": {
+    "moment": "2.x",
+    "request": "2.x",
+    "xml2js": "0.4.x"
+  },
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/okjake/node-atmos.git"
+   },
+  "keywords": [
+     "atmos",
+     "emc",
+     "cloud",
+     "storage",
+     "peer1",
+     "peerone",
+     "peer one"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
