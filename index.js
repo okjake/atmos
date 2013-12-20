@@ -1,1 +1,1 @@
-module.exports = require('./lib/atmosclient.js');
+module.exports = require('./lib/client.js');
