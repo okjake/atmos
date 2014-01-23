@@ -16,10 +16,7 @@
      "atmos",
      "emc",
      "cloud",
-     "storage",
-     "peer1",
-     "peerone",
-     "peer one"
+     "storage"
   ],
   "license": "MIT",
   "engines": {
