@@ -2,7 +2,7 @@ var expect = require('chai').expect,
     conf = require('./config.js'),
     AtmosRequest = require('../lib/request.js');
 
-describe('AtmosRequest', function(){
+describe('AtmosRequest', function() {
 
   it('should require method, resource, and conf to be set on creation', function() {    
     expect(
