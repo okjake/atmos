@@ -1,4 +1,5 @@
 var expect = require('chai').expect,
+    conf = require('./config.js'),
     AtmosRequest = require('../lib/request.js');
 
 describe('AtmosRequest', function(){
@@ -61,7 +62,7 @@ describe('AtmosRequest', function(){
 
     expect(
       function() {
-        new AtmosRequest('method', 'resource', { url: 'url', uid: 'uid', secret: 'secret'})
+        new AtmosRequest('method', 'resource', conf)
       }
     ).to.not.throw(Error);
 
@@ -72,7 +73,7 @@ describe('AtmosRequest', function(){
 
     it('shouldn\'t be signed before relevant headers set', function() {
 
-      var req = new AtmosRequest('method', 'resource', { url: 'url', uid: 'uid', secret: 'secret'});
+      var req = new AtmosRequest('method', 'resource', conf);
       expect(req.sign).to.throw(Error);
 
     });
