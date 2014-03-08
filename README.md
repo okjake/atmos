@@ -11,7 +11,6 @@ Node client for EMC Atmos cloud storage platform
 
 Tests are written with [Mocha](http://visionmedia.github.io/mocha) and [Chai](http://chaijs.com/).
 
-
 ### Local
 
 To run the local tests cd to node-modules/atmos and run:

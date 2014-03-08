@@ -1,7 +1,0 @@
-var conf = {
-  url: "Enter your EMC Atmos endpoint URL here",
-  uid: "Enter your subtenent ID / UID here",
-  secret: "Enter your base64 encoded secret here"
-}
-
-module.exports = conf;

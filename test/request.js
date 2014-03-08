@@ -1,6 +1,12 @@
 var expect = require('chai').expect,
-    conf = require('./config.js'),
     AtmosRequest = require('../lib/request.js');
+
+/* Dummy configuration */
+var conf = {
+  url: "http://example.xom",
+  uid: "E673KHJHujhSujeh/Du3jD",
+  secret: "SDJSKHAi3e"
+}
 
 describe('AtmosRequest', function() {
 
