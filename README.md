@@ -31,7 +31,7 @@ If anything goes wrong you can just remove this directory manually. Tests won't 
 
 The first step to run the tests is to make a configuration file containing your Atmos access details.
 
-__Copy test/network/config.js.dist to test/config.js and fill out your url, uid, and secret.__
+__Copy test/network/atmos.json.dist to test/network/atmos.json and fill out your url, uid, and secret.__
 
 Then you can run:
 
