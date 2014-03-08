@@ -116,11 +116,11 @@ describe('Atmos.namespace', function() {
       });
     });
 
-    it('should delete recursively if the flag is set', function(done) {
+    /*it('should delete recursively if the flag is set', function(done) {
       client.namespace.delete('node-atmos-test', function(err) {
         done(err);
       }, true);
-    });
+    });*/
 
   });
 

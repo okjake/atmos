@@ -36,9 +36,17 @@ describe('Atmos.namespace', function() {
   describe('#uploadPath()', function() {
     it('should format remote paths correctly', function() {
 
-      expect(client.namespace.uploadPath('node-atmos-test', 'test/network/files/dummy.txt')).to.equal('node-atmos-test/dummy.txt');
-      expect(client.namespace.uploadPath('node-atmos-test/sub-folder-1/', 'test/network/files/dummy.txt')).to.equal('node-atmos-test/sub-folder-1/dummy.txt');
-      expect(client.namespace.uploadPath('node-atmos-test/sub-folder-2', 'test/network/files/dummy.txt')).to.equal('node-atmos-test/sub-folder-2/dummy.txt');
+      expect(
+        client.namespace.uploadPath('node-atmos-test', 'test/network/files/dummy.txt')
+      ).to.equal('node-atmos-test/dummy.txt');
+      
+      expect(
+        client.namespace.uploadPath('node-atmos-test/sub-folder-1/', 'test/network/files/dummy.txt')
+      ).to.equal('node-atmos-test/sub-folder-1/dummy.txt');
+      
+      expect(
+        client.namespace.uploadPath('node-atmos-test/sub-folder-2', 'test/network/files/dummy.txt')
+      ).to.equal('node-atmos-test/sub-folder-2/dummy.txt');
 
     });
   });
