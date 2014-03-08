@@ -5,6 +5,8 @@ Node client for EMC Atmos cloud storage platform
 
 ## Usage
 
+Coming soon
+
 ---
 
 ## Tests
