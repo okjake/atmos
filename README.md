@@ -1,24 +1,24 @@
-atmos
-=====
+# atmos
+
 
 Node client for EMC Atmos cloud storage platform
 
-### Usage
+## Usage
 
+---
 
-
-### Running the tests
+## Tests
 
 Tests are written with [Mocha](http://visionmedia.github.io/mocha) and [Chai](http://chaijs.com/).
 
 
-#### Local
+### Local
 
 To run the local tests cd to node-modules/atmos and run:
 
     mocha
 
-#### Network
+### Network
 
 There is a more comprehensive test suite included that will check operation of the Atmos client against your server.
 
@@ -40,7 +40,7 @@ Some of the non-default reporters are very useful because the tests can take som
 
     mocha -R spec test/network
 
-##### [Error: ETIMEDOUT]
+#### [Error: ETIMEDOUT]
 
 Network tests are dependent on your network connectivity and Atmos server status ([Error: ETIMEDOUT]) errors are a sign that issues are arising here.
 
