@@ -33,11 +33,11 @@ __Copy test/network/config.js.dist to test/config.js and fill out your url, uid,
 
 Then you can run:
 
-    mocha test/network
+    mocha --bail test/network
 
 Some of the non-default reporters are very useful because the tests can take some time over the network:
 
-    mocha -R spec test/network
+    mocha -R spec --bail test/network
 
 #### [Error: ETIMEDOUT]
 
