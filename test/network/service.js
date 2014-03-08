@@ -3,7 +3,7 @@ var expect = require('chai').expect,
      Atmos = require('../../index.js'),
     client = new Atmos(conf);
 
-describe('Atmos.service', function(){
+/*describe('Atmos.service', function(){
 
     describe('#version()', function() {
 
@@ -18,4 +18,4 @@ describe('Atmos.service', function(){
       
     });
 
-});
+});*/
