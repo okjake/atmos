@@ -1,7 +1,8 @@
 # atmos
 
+NOTE: INCOMPLETE & UNMAINTAINED  
 
-Node client for EMC Atmos cloud storage platform
+Node client for EMC Atmos cloud storage platform  
 
 ## Usage
 
